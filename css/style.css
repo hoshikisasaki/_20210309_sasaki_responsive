@@ -261,6 +261,8 @@ body {
  .header-nav{
    display: none;
  }
+
+
  #hamburger {
   width: 40px;
   height: 40px;
@@ -293,6 +295,7 @@ body {
 #hamburger span:nth-of-type(3) {
   top: 30px; /* ハンバーガーメニューの3本目の棒 */
 }
+
 }
 
 #firstview {
@@ -313,6 +316,15 @@ body {
   color: #fff;
   line-height: 1;
 }
+@media screen and (max-width: 768px) {
+
+  
+  .catchcopy{
+    top: 50%;
+
+  }
+}
+
 
 /*------------------------*/
 /*         news           */
@@ -394,6 +406,7 @@ body {
     padding: 10% 16% 10% 16%;
     width: 100%;
   }
+}
 
 /*------------------------*/
 /*         service        */
@@ -574,10 +587,10 @@ body {
 .contact{
   padding: 10% 15%;
 }
-.header-logo{
+ .footer-logo{
   margin: 0 auto;
 }
 
 }
 
-}
+
